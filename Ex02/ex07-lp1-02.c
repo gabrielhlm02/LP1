@@ -11,25 +11,25 @@ int main(void) {
 	for (i = 0; i < 20; i++) {
 		printf("Escolha um time: ");
 		scanf("%d", &aux);
-		printf("%d\n", aux);
+		//printf("%d\n", aux);
 		times[i] = aux;
 
 		printf("Insira o número de vitórias do time %d: ", times[i]);
 		scanf("%d", &aux);
-		printf("%d\n", aux);
+		//printf("%d\n", aux);
 		pontos[i] = aux * 3;
 
 		printf("Insira o número de empates do time %d: ", times[i]);
 		scanf("%d", &aux);
-		printf("%d\n", aux);
+		//printf("%d\n", aux);
 		pontos[i] += aux * 1;
 
 		printf("Insira o número de derrotas do time %d: ", times[i]);
 		scanf("%d", &aux);
-		printf("%d\n", aux);
+		//printf("%d\n", aux);
 		//pontos[i] += aux * 0;
 
-		printf("%d\n", pontos[i]);
+		//printf("%d\n", pontos[i]);
 
 		if (pontos[i] > pontos[maior]) {
 			maior = i;

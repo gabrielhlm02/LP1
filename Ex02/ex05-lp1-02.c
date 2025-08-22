@@ -13,5 +13,6 @@ int main(void) {
 		scanf("%d", &n);
 		soma += n;
 	} 
+	
 	printf("A soma dos números escolhidos é %d!\n", soma);
 }
