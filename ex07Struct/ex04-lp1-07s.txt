@@ -1,0 +1,10 @@
+a) A primeira abordagem, em preencheA, usa uma nova struct auxiliar que será preenchida e retornada, assim, copiando os valores da struct auxiliar para a desejada.
+Essa abordagem pode facilitar a leitura do código, já que deixa claro que o que está acontecendo é uma atribuição, no entanto, por criar uma nova struct interna, a função pode usar mais memória do que o esperado.
+
+Já na segunda abordagem (preencheB), a função atribui os valores diretamente à struct desejada, sem a necessidade de copiar os valores de uma struct auxiliar, o que minimiza a memória usada pela função, porém, ao custo de clareza, já que a atribuição deixa de ser explícita e a função passa a lidar com ponteiros.
+
+Além disso, a primeira abordagem será mais lenta, já que um único valor será escrito uma vez, atribuindo-o à struct auxiliar e depois, lido e escrito à struct desejada. A segunda abordagem escreve apenas uma vez, diretamente na struct desejado.
+
+b) Prefiro a segunda abordagem por ser mais otimizada e similar ao scanf, função comum para receber valores.
+
+c) Como dito antes, a primeira abordagem é mais lenta e gasta mais memória, enquanto a segunda, por escrever os valores diretamente no struct desejado é mais otimizada.
