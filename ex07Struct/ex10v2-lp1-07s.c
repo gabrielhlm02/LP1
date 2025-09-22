@@ -41,7 +41,7 @@ struct Ponto ptmax (struct Ponto pt1, struct Ponto pt2) {			// cria um ponto com
 }
 
 void defmapa (struct Personagem pers[], int tamn, int xf, int yf, struct Personagem mapa[xf][yf]) {
-	// coloca os personagens no mapa; pers é um vetor com todos os personagens de tamnho tamn; mapa é um vetor bidimensional de dimensões xf por yf
+	// coloca os personagens no mapa; pers é um vetor com todos os tamn personagens; mapa é um vetor bidimensional de dimensões xf por yf
 
 	for (int i = 0; i < tamn; i++) {
 		mapa[pers[i].pos.x][pers[i].pos.y] = pers[i];
