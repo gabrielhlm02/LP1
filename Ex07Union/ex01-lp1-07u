@@ -1,0 +1,3 @@
+'struct's atuam como uma união de tipos, permitindo a criação de tipos compostos. Uma struct pode ser usada para representar uma ~estrutura~ que rquer várias variáveis, como um endereço residencial: o Estado, cidade, rua ~e~ número do edifício são variáveis diferentes que compõem o endereço de alguma pessoa; todas elas devem estar presentes ao mesmo tempo.
+
+Já 'union's servem para armazenar um único dado, que possui diferentes representações. Por exemplo, a identidade de uma pessoa pode ser representada pelo seu CPF, RG ~ou~ seu nome completo; todas elas representam a mesma pessoa, havendo a necessidade de apenas uma dessas representações, no entanto, possuem tipos diferentes e devem ser tratadas de formas diferentes.
