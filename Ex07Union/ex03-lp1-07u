@@ -1,0 +1,1 @@
+Como uma union pode se comportar como diferentes tipos, é preciso uma maneira de saber qual tipo está sendo usado no momento. Em unions discriminadas, há uma maneira de saber o tipo que está em uso, geralmente atráves de uma outra variável. Isso é útil para criar funções que precisam lidar com unions de diferentes tipos.
