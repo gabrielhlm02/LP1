@@ -1,0 +1,4 @@
+Não houve alteração no comportamento do código.
+Isso ocorre pois todos os arquivos são coleções de dados ~binários~, inclusive arquivos de texto.
+Independentemente de como um arquivo é aberto, os bits que compõem a string são escritos no arquivo.
+Além de servirem a mesma função na teoria, em sistemas UNIX, não há distinção entre "w" e "wb".

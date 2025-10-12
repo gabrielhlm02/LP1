@@ -1,0 +1,5 @@
+O função do caractere '\0' é particular à linguagem C e não é usado por editores de texto e outras linguagem de programação, logo,
+
+É preciso garantir que esse carctere NÃO seja escrito nos arquivos e, por isso,
+
+É preciso garantir que o '\0' seja adicionado ao final das strings lidas de arquivos.
